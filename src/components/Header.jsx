@@ -7,12 +7,12 @@ const Header = () => {
       <div className="relative h-full w-full bg-slate-950">
         <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]">
           <Navbar />
-          <div className="container mx-auto px-4 md:px-20 lg:px-32 max-w-7xl py-4 mt-44 md:mt-56">
+          <div className="container mx-auto px-8 md:px-20 lg:px-32 max-w-7xl py-4 mt-44 md:mt-56">
             <h4 className="text-[#ffec78] text-xl mb-4">We are cooking our website, coming back soon</h4>
             <h1 className="text-white text-5xl md:text-7xl">
               Building innovations to Inspire <span className="text-[#ffec78] font-semibold">Growth</span>, tailored to your goals.
             </h1>
-            <p className="text-[#93a3b6] text-md mt-8">In the meantime, follow us on social media to stay updated.</p>
+            <p className="text-[#93a3b6] text-md mt-8">In the mean time, follow us on social media to stay updated.</p>
             <div>
               <p className="text-[#93a3b6] text-sm mt-4">
                 {" "}
