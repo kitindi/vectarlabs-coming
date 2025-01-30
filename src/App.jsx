@@ -1,17 +1,17 @@
-import About from "./components/About";
-import Header from "./components/Header";
-import Services from "./components/Services";
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom";
 
+import Home from "./pages/Home";
+import Layout from "./routes/Layout";
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<Layout />}>
+      <Route index element={<Home />} />
+    </Route>
+  )
+);
 function App() {
-  return (
-    <>
-      <div>
-        <Header />
-        <About />
-        <Services />
-      </div>
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

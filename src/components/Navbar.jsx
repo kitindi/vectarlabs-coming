@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
 
 const Navbar = () => {
@@ -6,37 +6,30 @@ const Navbar = () => {
     <div className="absolute top-0 left-0 w-full overflow-hidden">
       <div className="container mx-auto px-4 md:px-20 lg:px-32 max-w-8xl py-4">
         <div className="flex items-center space-x-32">
-          <a href="">
+          <Link to="/">
             <img src={logo} alt="" className="w-40  md:w-40 h-12" />
-          </a>
-          <nav className="hidden md:block pt-3">
-            <ul className=" flex items-center justify-center space-x-12">
-              <li>
-                <a href="" className="text-[#fef8fd] text-md">
-                  Company
-                </a>
-              </li>
-              <li>
-                <a href="" className="text-[#fef8fd] text-md">
-                  Services
-                </a>
-              </li>
-              <li>
-                <a href="" className="text-[#fef8fd] text-md">
-                  Work
-                </a>
-              </li>
-              <li>
-                <a href="" className="text-[#fef8fd] text-md">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="" className="text-[#fef8fd] text-md">
-                  Contact
-                </a>
-              </li>
-            </ul>
+          </Link>
+          <nav className="hidden  pt-3 md:flex items-center justify-center space-x-12">
+            <Link to="" className="text-white font-bold">
+              {" "}
+              Company
+            </Link>
+            <Link to="#services" className="text-white font-bold">
+              {" "}
+              Services
+            </Link>
+            <Link to="#work" className="text-white font-bold">
+              {" "}
+              Work
+            </Link>
+            <Link to="#blog" className="text-white font-bold">
+              {" "}
+              Blog
+            </Link>
+            <Link to="#contact" className="text-white font-bold">
+              {" "}
+              Contact
+            </Link>
           </nav>
         </div>
       </div>
