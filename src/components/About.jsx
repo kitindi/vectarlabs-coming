@@ -5,18 +5,18 @@ import aboutImage2 from "../assets/about_2.jpg";
 
 const About = () => {
   return (
-    <div className="w-full text-white bg-slate-950 py-8">
+    <div className="w-full text-white bg-slate-950 py-8" id="about">
       <div className="container mx-auto px-8 md:px-20 lg:px-20 max-w-6xl ">
         <div className="flex flex-wrap items-center gap-4 md:gap-0 justify-between w-full py-16">
           <div className="flex flex-col items-center md:justify-start">
             <p className="text-4xl md:text-5xl font-bold mb-3">
-              100<span className="">+</span>
+              10<span className="">+</span>
             </p>
             <p className="text-md text-slate-200">Happy Customer</p>
           </div>
           <div className="flex flex-col items-center md:justify-start">
             <p className="text-4xl md:text-5xl font-bold mb-3">
-              200<span className="">+</span>
+              15<span className="">+</span>
             </p>
             <p className="text-md text-slate-200">Completed Projects</p>
           </div>
