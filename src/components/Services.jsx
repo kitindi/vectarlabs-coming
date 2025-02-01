@@ -5,9 +5,9 @@ const Services = () => {
         <div className="container mx-auto px-8 md:px-20 lg:px-20 max-w-7xl ">
           <h2 className="text-xl font-bold mb-10">
             {" "}
-            <span className="text-yellow-400">#</span> Our Services
+            <span className="text-yellow-400 mr-4">#</span> Our Services
           </h2>
-          <h2 className="text-4xl font-semibold max-w-xl text-[#cfe0f4]">High-Imapct Services That Will Propel Your Company Forward</h2>
+          <h2 className="text-2xl md:text-4xl font-semibold max-w-xl text-[#cfe0f4]">High-Imapct Services That Will Propel Your Company Forward</h2>
           <div className="w-full py-16 grid md:grid-cols-12">
             <div className="p-6 border border-slate-700 col-span-4 h-56">
               <p className="text-2xl">UI/UX & Product Design</p>

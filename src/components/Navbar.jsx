@@ -22,7 +22,7 @@ const Navbar = () => {
               {" "}
               Testimonials
             </a>
-            <a href="#blog" className="text-white font-bold">
+            <a href="#faq" className="text-white font-bold">
               {" "}
               FAQ
             </a>

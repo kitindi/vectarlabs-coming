@@ -35,7 +35,7 @@ const About = () => {
       <div className="container mx-auto px-8 md:px-20 lg:px-20 max-w-7xl flex flex-col md:flex-row gap-5 py-8">
         <h2 className="text-xl font-bold">
           {" "}
-          <span className="text-yellow-400">#</span> Who We Are
+          <span className="text-yellow-400 mr-4">#</span> Who We Are
         </h2>
       </div>
       <div className="container mx-auto px-8 md:px-20 lg:px-20 max-w-7xl flex  flex-col md:flex-row gap-5">

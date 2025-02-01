@@ -6,7 +6,7 @@ const Testimonials = () => {
       <div className="container mx-auto px-8 md:px-20 lg:px-20 max-w-7xl ">
         <h2 className="text-xl font-bold mb-10">
           {" "}
-          <span className="text-yellow-400">#</span> What Our Clients Say
+          <span className="text-yellow-400 mr-4">#</span> What Our Clients Say
         </h2>
 
         <div className="w-full grid md:grid-cols-12">
@@ -21,11 +21,17 @@ const Testimonials = () => {
                 "Working with <span className="text-yellow-500">VectarLabs</span> was a game-changer for our spare parts business. Their team delivered a custom
                 software solution that streamlined our operations and saved us countless hours of stock taking and managing finance. Highly recommend!"
               </p>
-              <div className="md:flex md:items-center space-x-6 mt-10">
-                <p className="text-sm mt-10">
-                  Ibrahim <span className="font-bold ml-4">Ismat Europe Spare Parts</span>
-                </p>{" "}
-                <a href="https://ismateuropespareparts.co.tz/" target="_new" className="text-sm mt-10">
+              <div className="md:flex md:items-center md:space-x-6 mt-10">
+                <p className="text-sm text-bold mt-10 flex items-center">
+                  {" "}
+                  <span className="mr-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="32" color="#facc15" fill="none">
+                      <path d="M2.5 12L21.5002 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                  Ibrahim, CEO
+                </p>
+                <a href="https://ismateuropespareparts.co.tz/" target="_new" className="text-sm mt-4 md:mt-10 flex ">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" color="#facc15" fill="none">
                     <path d="M9.5 14.5L14.5 9.49995" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                     <path
@@ -35,6 +41,7 @@ const Testimonials = () => {
                       stroke-linecap="round"
                     />
                   </svg>
+                  <span className="text-blue-400 font-bold ml-2">Ismat Europe Spare Parts</span>
                 </a>
               </div>
             </div>
