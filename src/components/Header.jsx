@@ -19,7 +19,7 @@ const Header = () => {
             {/* <p className="text-[#93a3b6] text-xl md:text-2xl mt-6 text-center md:px-36">
               We design and develop custom websites and software that drive growth, efficiency, and innovation for businesses like yours.
             </p> */}
-            <button className="px-12 py-3 mt-8 rounded-full bg-yellow-500 text-white md:font-medium  text-sm md:text-lg">Get a Free Consultation</button>
+            <button className="px-12 py-3.5 mt-8 rounded-full bg-yellow-500 text-white md:font-medium  text-sm md:text-lg">Get a Free Consultation</button>
             <div></div>
           </div>
         </div>

@@ -1,11 +1,11 @@
 import React from "react";
-import aboutImage from "../assets/about-image.jpg";
-import aboutImage1 from "../assets/about_1.jpg";
+
+import aboutImage1 from "../assets/about_1.jpeg";
 import aboutImage2 from "../assets/about_2.jpg";
 
 const About = () => {
   return (
-    <div className="w-full text-white bg-slate-950 py-8" id="about">
+    <div className="w-full text-white bg-slate-950 py-20" id="about">
       <div className="container mx-auto px-8 md:px-20 lg:px-20 max-w-6xl ">
         <div className="flex flex-wrap items-center gap-4 md:gap-0 justify-between w-full py-16">
           <div className="flex flex-col items-center md:justify-start">
@@ -40,7 +40,7 @@ const About = () => {
       </div>
       <div className="container mx-auto px-8 md:px-20 lg:px-20 max-w-7xl flex  flex-col md:flex-row gap-5">
         <div className="flex-1 ">
-          <img src={aboutImage2} alt="" className="object-contain rounded-md" />
+          <img src={aboutImage1} alt="" className="object-contain rounded-md" />
         </div>
         <div className="flex-1 md:pl-20">
           <p className="text-3xl font-semibold mb-4">Your Partner in Digital Transformation</p>

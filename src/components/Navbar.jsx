@@ -18,13 +18,13 @@ const Navbar = () => {
               {" "}
               Services
             </a>
-            <a href="#work" className="text-white font-bold">
+            <a href="#testimonials" className="text-white font-bold">
               {" "}
-              Work
+              Testimonials
             </a>
             <a href="#blog" className="text-white font-bold">
               {" "}
-              Plans
+              FAQ
             </a>
             <a href="#contact" className="text-white font-bold">
               {" "}
