@@ -6,7 +6,7 @@ const Faq = () => {
   const faqData = [
     {
       id: 1,
-      question: "How do you work your with clients to ensure meeting their expectations ?",
+      question: "How do you work  with your clients to ensure meeting their expectations ?",
       answer:
         "First of all we believe in transparency and collaboration. When working with you to ensure we bring your vision to life, We start by understanding your goals, challenges, and requirements. Then our team creates a detailed roadmap acompanied with regular updates, feedback sessions to ensure your project stays on track. Later we craft stunning designs and build robust solutions tailored to your desired goals. To ensure a high quality end product, we rigorously test every detail before delivering a polished product. Then our relationship will make sure we are there to help you grow with ongoing maintenance and updates.",
     },
