@@ -1,6 +1,7 @@
 import About from "../components/About";
 import Contact from "../components/Contact";
 import Faq from "../components/Faq";
+import Footer from "../components/Footer";
 import Services from "../components/Services";
 import Testimonials from "../components/Testimonials";
 import { Helmet } from "react-helmet-async";
@@ -43,6 +44,7 @@ const Home = () => {
         <Testimonials />
         <Faq />
         <Contact />
+        <Footer />
       </div>
     </>
   );

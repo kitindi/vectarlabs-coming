@@ -10,9 +10,9 @@ const Contact = () => {
           our team is here to help.
         </p>
 
-        <div className="w-full flex justify-center items-center pt-10">
-          <div className="p-6  flex justify-center items-center gap-8">
-            <button className="flex items-center gap-3 px-8 md:px-10 py-3.5  border border-slate-300 rounded-full text-white md:font-medium  text-sm md:text-lg">
+        <div className="w-full flex md:justify-center items-center pt-10">
+          <div className="w-full md:w-fit p-6  flex flex-col md:flex-row  md:justify-center items-center gap-8">
+            <button className="w-full md:w-fit flex justify-center items-center gap-3 px-8 md:px-10 py-3.5  border border-slate-300 rounded-full text-white md:font-medium  text-sm md:text-lg">
               <span>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#b1b3b6" fill="none">
                   <path d="M18 2V4M6 2V4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -28,7 +28,10 @@ const Contact = () => {
               </span>
               Schedule a Call
             </button>
-            <button className="flex items-center gap-3 px-8 md:px-10 py-3.5  bg-yellow-500 rounded-full text-white md:font-medium  text-sm md:text-lg">
+            <a
+              href="emailt0"
+              className="w-full md:w-fit flex justify-center items-center gap-3 px-8 md:px-10 py-3.5  bg-yellow-500 rounded-full text-white md:font-medium  text-sm md:text-lg"
+            >
               {" "}
               <span>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff" fill="none">
@@ -47,12 +50,12 @@ const Contact = () => {
                 </svg>
               </span>
               Send Message
-            </button>
+            </a>
           </div>
         </div>
         <div className="w-full flex justify-center items-center ">
           <div className=" flex justify-center items-center gap-8">
-            <p className="text-slate-500">We'll send a few questions before meeting to ensure your time is well spent.</p>
+            <p className="text-slate-500 text-center">To make the most of our meeting, we’ll send over a few questions in advance.</p>
           </div>
         </div>
       </div>
