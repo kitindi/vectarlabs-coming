@@ -5,7 +5,7 @@ import aboutImage2 from "../assets/about_2.jpg";
 
 const About = () => {
   return (
-    <div className="w-full text-white bg-slate-950 py-20" id="about">
+    <div className="w-full text-white bg-slate-950 md:py-20" id="about">
       <div className="container mx-auto px-8 md:px-20 lg:px-20 max-w-6xl ">
         <div className="flex flex-wrap items-center gap-4 md:gap-0 justify-between w-full py-16">
           <div className="flex flex-col items-center md:justify-start">

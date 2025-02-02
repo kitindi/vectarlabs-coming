@@ -45,9 +45,13 @@ const Testimonials = () => {
                 </a>
               </div>
             </div>
-            <button className="w-full px-8 md:px-10 py-3.5  rounded-full bg-yellow-500 text-white md:font-medium  text-sm md:text-lg">
+            <a
+              href="https://calendar.app.google/gvTnhQzbkRZ2ypWd6"
+              target="_blank"
+              className="block w-full px-8 md:px-10 py-3.5  rounded-full bg-yellow-500 text-white  text-center md:font-medium  text-sm md:text-lg"
+            >
               Become Our Next Success Story
-            </button>
+            </a>
           </div>
         </div>
       </div>
