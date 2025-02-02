@@ -52,7 +52,7 @@ const Contact = () => {
                 </span>
                 business@vectarlabs.com
               </p>
-              <p className="text-slate-400  text-[16px] md:text-[17px] flex items-center gap-4">
+              <p className="text-slate-400  text-[14px] md:text-[17px] flex items-center gap-4">
                 <span>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" color="#b1b3b6" fill="none">
                     <path
