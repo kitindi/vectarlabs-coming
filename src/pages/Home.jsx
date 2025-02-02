@@ -1,4 +1,5 @@
 import About from "../components/About";
+import Contact from "../components/Contact";
 import Faq from "../components/Faq";
 import Services from "../components/Services";
 import Testimonials from "../components/Testimonials";
@@ -41,6 +42,7 @@ const Home = () => {
         <Services />
         <Testimonials />
         <Faq />
+        <Contact />
       </div>
     </>
   );

@@ -43,26 +43,26 @@ const Faq = () => {
           <div className="my-10 md:my-16 text-xl md:text-2xl font-extralight text-slate-300 px-4 py-8 rounded-lg">
             {faqData.map((item) => (
               <div className="mb-3" key={item.id}>
-                <p className=" text-[22px]  flex justify-between items-center pb-5 border-b border-slate-900">
+                <p className=" text-[20px]  flex justify-between items-center pb-5 border-b border-slate-900">
                   <span>{item.question}</span>{" "}
                   <div className="flex items-center">
                     {openAnswer === item.id ? (
                       <span className="cursor-pointer" onClick={() => toggleAnswer(item.id)}>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="#facc15" fill="none">
-                          <path d="M2.5 12L21.5002 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M2.5 12L21.5002 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                       </span>
                     ) : (
                       <span className="cursor-pointer" onClick={() => toggleAnswer(item.id)}>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="#facc15" fill="none">
-                          <path d="M12 4V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          <path d="M4 12H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M12 4V20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M4 12H20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                       </span>
                     )}
                   </div>
                 </p>
-                {openAnswer === item.id && <p className="text-[18px] text-bold py-8 ">{item.answer}</p>}
+                {openAnswer === item.id && <p className="text-[17px] text-bold py-8 ">{item.answer}</p>}
               </div>
             ))}
           </div>

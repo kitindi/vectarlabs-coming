@@ -15,11 +15,11 @@ const Testimonials = () => {
           </div>
           <div className="p-6 col-span-6 md:pl-20">
             <p className="text-2xl md:text-4xl font-bold text-[#cfe0f4]">Don’t just take our word for it—hear from the businesses we’ve helped succeed.</p>
-            <div className="my-10 md:my-16 text-xl md:text-2xl font-extralight text-slate-300 px-4 py-8 rounded-lg bg-slate-900">
+            <div className="my-10 md:my-16 text-lg md:text-xl font-extralight text-slate-300 px-4 py-8 rounded-lg bg-slate-900">
               <p>
-                {" "}
-                "Working with <span className="text-yellow-500">VectarLabs</span> was a game-changer for our spare parts business. Their team delivered a custom
-                software solution that streamlined our operations and saved us countless hours of stock taking and managing finance. Highly recommend!"
+                "Working with <span className="text-yellow-500 font-medium">vectarLabs</span> was a game-changer for our spare parts business. Their team
+                delivered a custom software solution that streamlined our operations and saved us countless hours of stock taking and managing finance. Highly
+                recommend!"
               </p>
               <div className="md:flex md:items-center md:space-x-6 mt-10">
                 <p className="text-sm text-bold mt-10 flex items-center">
