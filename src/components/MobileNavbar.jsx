@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import logo from "../assets/logo.svg";
 
 const MobileNavbar = () => {
@@ -6,6 +6,20 @@ const MobileNavbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  // disabling website from scrolling when mobile menu is open
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [isOpen]);
+
   return (
     <div className="absolute top-0 left-0 w-full overflow-hidden">
       <div className="container mx-auto  w-full py-4 relative">
