@@ -6,7 +6,7 @@ const Services = () => {
           {" "}
           <span className="text-yellow-400 mr-4">#</span> Our Services
         </h2>
-        <h2 className="text-2xl md:text-4xl font-semibold max-w-xl text-[#cfe0f4]">High-Imapct Services That Will Propel Your Company Forward</h2>
+        <h2 className="text-2xl md:text-4xl font-semibold max-w-xl text-[#cfe0f4]">High-Impact Services That Will Propel Your Company Forward</h2>
         <div className="w-full py-16 grid md:grid-cols-12">
           <div className="p-6 border border-slate-700 col-span-4 h-56">
             <p className="text-2xl">UI/UX & Product Design</p>
@@ -153,9 +153,7 @@ const Services = () => {
                 <path d="M7.5 12.5V6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
               </svg>
             </p>
-            <p>
-              From increasing brand visibility to generating high-quality leads, we craft tailored digital marketing campaigns that deliver measurable results
-            </p>
+            <p>We craft customized marketing solutions that elevate your brand, capture quality leads, and produce measurable outcomes</p>
           </div>
         </div>
       </div>
