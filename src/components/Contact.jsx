@@ -11,7 +11,7 @@ const Contact = () => {
         </p>
 
         <div className="w-full flex  md:justify-center items-center pt-10">
-          <div className="w-full md:w-fit p-6  flex flex-col md:flex-row  md:justify-center items-center gap-8">
+          <div className="w-full md:w-fit p-6  flex flex-col md:flex-row  md:justify-center items-center md:items-start gap-8 py-10">
             <a
               href="https://calendar.app.google/gvTnhQzbkRZ2ypWd6"
               target="_blank"
@@ -32,8 +32,8 @@ const Contact = () => {
               </span>
               Schedule a Call
             </a>
-            <div className="w-full md:w-fit flex flex-col justify-center items-start gap-3 px-2 md:px-10 py-3.5">
-              <p className="text-slate-400  text-[17px] flex items-center gap-4 w-full">
+            <div className="w-full md:w-fit flex flex-col justify-center items-center md:items-start gap-3 px-2 md:px-10">
+              <p className="text-slate-400  text-[17px] flex items-center justify-center gap-4 w-full">
                 <span>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" color="#b1b3b6" fill="none">
                     <path
