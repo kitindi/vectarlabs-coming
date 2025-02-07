@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="w-full text-white bg-slate-950" id="contact">
       <div className="container mx-auto px-8 md:px-20 lg:px-20 max-w-7xl ">
-        <p className="text-lg md:text-4xl font-bold text-[#cfe0f4] text-center mb-10">Let’s Build Something Amazing Together</p>
+        <p className="text-3xl md:text-4xl font-bold text-[#cfe0f4] text-center mb-10">Let’s Build Something Amazing Together</p>
         <p className="text-slate-300 text-[20px] text-center max-w-4xl mx-auto">
           Ready to take your business to the next level? We’d love to hear from you. Whether you have a project in mind or just want to explore your options,
           our team is here to help.
