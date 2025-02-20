@@ -42,6 +42,10 @@ const MobileNavbar = () => {
               {" "}
               Company
             </a>
+            <a href="#team" className="text-white font-bold text-[20px]" onClick={toggleMenu}>
+              {" "}
+              Team
+            </a>
             <a href="#services" className="text-white font-bold text-[20px]" onClick={toggleMenu}>
               {" "}
               Services

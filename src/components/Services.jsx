@@ -1,6 +1,16 @@
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants";
+
 const Services = () => {
   return (
-    <div className="w-full text-white bg-slate-950  py-32" id="services">
+    <motion.div
+      variants={fadeIn("up", 0.2)}
+      initial="hidded"
+      whileInView={"show"}
+      viewport={{ once: false, amount: 0.2 }}
+      className="w-full text-white bg-slate-950  py-32"
+      id="services"
+    >
       <div className="container mx-auto px-8 md:px-20 lg:px-20 max-w-7xl ">
         <h2 className="text-xl font-bold mb-10">
           {" "}
@@ -157,7 +167,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

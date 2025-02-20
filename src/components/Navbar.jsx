@@ -13,6 +13,10 @@ const Navbar = () => {
               {" "}
               Company
             </a>
+            <a href="#team" className="text-white font-bold">
+              {" "}
+              Team
+            </a>
             <a href="#services" className="text-white font-bold">
               {" "}
               Services
