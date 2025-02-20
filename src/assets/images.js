@@ -1,5 +1,5 @@
 import abdul from "./abdulaziz.png";
-import othman from "./othman.png";
+import othman from "./Othman.png";
 
 export const team = [
   {
